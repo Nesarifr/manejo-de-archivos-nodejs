@@ -24,11 +24,10 @@ async function main(){
     console.log(await productos.save(productoPrueba3))
     console.log(await productos.getById(12))
     console.log(await productos.getAll())
-    await productos.deletedById(10)
+    await productos.deletedById(12)
     console.log(await productos.getAll())
     // await productos.deleteAll()
     console.log(await productos.getAll())
 }
-
 
 main()
